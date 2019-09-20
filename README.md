@@ -1,1 +1,1 @@
-# trabalho
+# Trabalho feito para disciplina de Linguagens de Computação
