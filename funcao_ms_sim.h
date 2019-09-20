@@ -35,19 +35,6 @@ int busca_pos_aux(est*vetor, int pos){
     return pos_encontrada;
 }
 
-//percorre o vetor aux e conta quantos endereços de vet sao iguais ao do aux em determinada posição
-int quant_aloc_aux(est* vetor, int pos){
-    int cont=0;
-
-    if(aux[pos].endr!=NULL){
-        for(int i=0; i<tam; i++){
-            if(vetor[i].endr == aux[pos].endr)
-                cont++;
-        }
-    }
-    return cont;
-}
-
 //aloca uma area a uma determinada posição do vetor
 void aloca(est*vetor,int pos){
     int cont=0;
